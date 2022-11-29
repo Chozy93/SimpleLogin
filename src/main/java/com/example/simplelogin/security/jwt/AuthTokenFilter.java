@@ -1,5 +1,6 @@
 package com.example.simplelogin.security.jwt;
 
+import com.example.simplelogin.security.services.UserDetailsServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
